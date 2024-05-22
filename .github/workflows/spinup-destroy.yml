@@ -61,5 +61,4 @@ jobs:
       - name: Destroy Azure environment
         if: success()
         run: |
-          az group delete --name ${{env.AZURE_RESOURCE_GROUP}} --subscription ${{var.AZURE_SUBSCRIPTION_ID}} --yes
-  
+          az group delete --name ${{env.AZURE_RESOURCE_GROUP}} --subscription ${{vars.AZURE_SUBSCRIPTION_ID}} --yes
