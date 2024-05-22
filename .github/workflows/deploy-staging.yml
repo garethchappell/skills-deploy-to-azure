@@ -1,5 +1,4 @@
-name: Deploy to staging
-
+name: Deploy to staging 🚀
 on:
   pull_request:
     types: [labeled]
